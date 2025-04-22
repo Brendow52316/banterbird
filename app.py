@@ -12,7 +12,7 @@ def get_posts():
         posts = json.load(file)
     return jsonify(posts)
 
-@app.route('api/posts', methods=['POST'])
+@app.route('/api/posts', methods=['POST'])
 def add_posts():
     new_post = request.get_json()
     with (open("data.json", "r")) as file:

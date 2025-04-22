@@ -1,15 +1,30 @@
 [
-  {
-    "username": "admin",
-    "message": "Welcome to Banterbird!"
-  },
-  {
-    "username": "chad",
-    "message": "Excited to be here!"
-  },
-  {
-    "username": "bob",
-    "message": "Just joined. Let's tweet!"
-
-  }
+    {
+        "username": "admin",
+        "message": "goofy ahhh uncle production"
+    },
+    {
+        "username": "admin",
+        "message": "I really hate birds"
+    },
+    {
+        "username": "admin",
+        "message": "Herro prease"
+    },
+    {
+        "username": "admin",
+        "message": "test"
+    },
+    {
+        "username": "admin",
+        "message": "Welcome to Banterbird!"
+    },
+    {
+        "username": "chad",
+        "message": "Excited to be here!"
+    },
+    {
+        "username": "bob",
+        "message": "Just joined. Let's tweet!"
+    }
 ]
