@@ -2,15 +2,18 @@
 <html>
 <head>
     <title>Banterbird</title>
-    <script src="/static/js/app.js" defer></script>
-    <link rel="stylesheet" href="/static/css/style.css">
+    <script src="{{ url_for('static', filename='js/app.js') }}" defer></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+    
+</head>
 
 <body>
    
     <h1>Banterbird</h1>
     
     <div>
-        Logged in as: <strong id="username">admin</strong>
+        Logged in as: <strong id="username">Bob</strong>
         
     </div>
     <div>
@@ -29,5 +32,8 @@
             <hr>
         </div>
     </template>
+    <script>
+        document.getElementById("username").innerText = localStorage.getItem("username")
+    </script>
 </body>
 </html>

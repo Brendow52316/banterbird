@@ -1,0 +1,10 @@
+body {
+    background-image: url("https://media.cnn.com/api/v1/images/stellar/prod/screen-shot-2024-07-25-at-10-27-16-am.jpg?c=16x9&q=h_833,w_1480,c_fill");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #cccccc;
+    font-family: serif; 
+    padding: 20px;
+    font-size: 20px;
+}
